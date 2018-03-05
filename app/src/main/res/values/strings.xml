@@ -15,4 +15,9 @@
         completions."
     </string>
     <string name="title_activity_main">MainActivity</string>
+    <string name="txt_login">Login</string>
+    <string name="hint_login">Informe o login</string>
+    <string name="txt_senha">Senha</string>
+    <string name="hint_senha">Informe a senha</string>
+    <string name="botao_login">Conecta</string>
 </resources>

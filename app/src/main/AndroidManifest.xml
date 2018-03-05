@@ -25,13 +25,11 @@
         </activity>
         <activity android:name=".Activitys.MenuActivity" />
         <activity
-            android:name=".Activitys.LoginActivity"
-            android:label="@string/title_activity_login" >
-        </activity>
-        <activity
             android:name=".Activitys.MainActivity"
             android:label="@string/title_activity_main"
             android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
+        <activity android:name=".Activitys.LoginActivity" >
         </activity>
     </application>
 
