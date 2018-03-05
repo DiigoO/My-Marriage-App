@@ -1,4 +1,4 @@
-package br.com.fiap.mymarriageapp;
+package br.com.fiap.mymarriageapp.Activitys;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;

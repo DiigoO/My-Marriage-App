@@ -1,4 +1,4 @@
-package br.com.fiap.mymarriageapp;
+package br.com.fiap.mymarriageapp.Activitys;
 
 import android.content.Intent;
 import android.os.Handler;
