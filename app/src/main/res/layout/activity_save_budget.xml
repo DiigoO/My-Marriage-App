@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.fiap.mymarriageapp.Activitys.SaveBudgetActivity">
+
+    <EditText
+        android:id="@+id/etNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Buffet:"
+        app:layout_constraintBottom_toTopOf="@+id/etLocalizacao"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/etLocalizacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Localização"
+        app:layout_constraintBottom_toTopOf="@+id/etValor"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/etValor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Valor"
+        app:layout_constraintBottom_toTopOf="@+id/etServicos"
+        tools:layout_editor_absoluteX="85dp" />
+
+    <EditText
+        android:id="@+id/etServicos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Servicos"
+        tools:layout_editor_absoluteX="85dp"
+        tools:layout_editor_absoluteY="251dp" />
+
+    <Button
+        android:id="@+id/btSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="68dp"
+        android:text="Salvar"
+        android:onClick="salvar"
+        app:layout_constraintTop_toBottomOf="@+id/etServicos"
+        tools:layout_editor_absoluteX="148dp" />
+</android.support.constraint.ConstraintLayout>

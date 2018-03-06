@@ -20,4 +20,5 @@
     <string name="txt_senha">Senha</string>
     <string name="hint_senha">Informe a senha</string>
     <string name="botao_login">Conecta</string>
+    <string name="title_activity_save_budget">Sign in</string>
 </resources>

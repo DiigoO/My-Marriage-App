@@ -12,5 +12,5 @@ public interface UserApi {
     Call<BudgetApi> findBudget(@Path("nome") String nome);
 
     @POST("/user/login/")
-    Call<Void> salvar(@Body User user);
+    Call<Boolean> salvar(@Body User user);
 }
